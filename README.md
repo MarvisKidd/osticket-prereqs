@@ -1,4 +1,4 @@
-e<p align="center">
+<p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
@@ -28,32 +28,41 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Step 2 Create a virtual machine in Azure
 - ![image](https://github.com/MarvisKidd/osticket-prereqs/assets/169103317/3cd69105-f0ba-44a4-aa2c-c5a5dd1bde94)
 
-- Step 3
-- Step 4
+- Step 3 Open remote desktop
+![Screenshot 2024-05-24 103945](https://github.com/MarvisKidd/osticket-prereqs/assets/169103317/709772cf-6258-4513-acf7-1fabad3a2cb2)
+
+- Step 4 installation/configuration
+- ![image](https://github.com/MarvisKidd/osticket-prereqs/assets/169103317/33bde550-d54d-41aa-a351-c80df945b1c4)
+
+Install / Enable IIS in Windows WITH CGI and Common HTTP Features
+World Wide Web Services -> Application Development Features ->
+[X] CGI
+[X] Common HTTP Features
+AND IIS Management Console
+Internet Information Services -> Web Management Tools -> IIS Management Console
+	[X] IIS Management Console
+
+
 - Step 5
 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 <p>
-So for this portion of the project.
+So for this portion of the project, we will check to make sure that we have installed everything correctly by pressing "Browse *.80".
+
+![image](https://github.com/MarvisKidd/osticket-prereqs/assets/169103317/319af393-d103-401f-9726-93de4dd86178)
+
+  
 </p>
 <br />
+Continue Setting up osTicket in the browser (click Continue)
+Name Helpdesk
+Default email (receives email from customers)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![image](https://github.com/MarvisKidd/osticket-prereqs/assets/169103317/b575890d-1c65-416c-9dec-881e27df4253)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+
 <br /># osticket-prereqs
